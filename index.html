@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Love letter</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="photo-1"><img src="./img/cat1.png" width="250"></div>
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Дашуля, happy girlfriend day!</strong>
+                            <p>
+                                Ти найпрекрасніша дівчина у світі, і я хочу щоб ти продовжувала дарувати мені радість :3 <br> looove you 💞!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+            <div class="photo-2"><img src="./img/cat2.png" width="250"></div>
+        </div>
+        <p class="yours">Yours forever, Санічка &#128158;</p>
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click', () => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+    </body>
+</html>
